@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+   
+
+    <nav class="navbar bg-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> 
+                <img src="images/twitterprof.jpg" class="rounded-circle img-fluid logo" style="width: 100px; height: 100px;">
+            </a>
+
+            <button class="navbar-toggler bg-light btn-outline-dark" data-bs-toggle="collapse" data-bs-target="#navbarExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+
+            <div class="collapse  navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navLink rounded" href="index.html">Home</a>
+
+                    </li>
+                   
+
+                    <li class="nav-item">
+                        <a class="nav-link navLink rounded" href="projects.html">Projects</a>
+                    </li>
+
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+  
+
+        <div class="container-fluid mt-5 pt-5 pb-5 mb-5">
+            <div class="d-flex flex-row flex-wrap justify-content-evenly">
+         
+                <div class="card mt-5 indexCard" style="height: 800px">
+                    <div class="card-header rounded">
+                        <h3 class="text-success text-center myname">Borbon, Jonathan Fetalvero</h3>
+                    </div>
+                        <div class="card-body">
+                            <img src="images/twitterprof.jpg" class="img-fluid profileImage" alt="">
+                        </div>
+                    <div class="card-footer">
+                        <h5 class="mx-5 text-success">09276498919</h5>
+                        <h5 class="mx-5 text-success">jonathanborbon222@gmail.com</h5>
+                    </div>
+                </div>
+                <div class="bg-success ps-5 pe-5 mt-5 rounded informationBox">
+                <h1 class="mt-5 pt-5 textShadow text-light">About Me</h1>
+                <p class="mt-5">
+                    I am an IT professional who wants to pursue my career in web development. <br>
+                    The KodeGo bootcamp helps me  develop  both technical and soft skills.  Capable in creating <br>
+                    a responsive website with the use of HTML, CSS, Bootstrap, ReactJs and Php Laravel.  I am team player <br>
+                      who can lead and  collaborate different people.
+                </p>
+
+                <h1 class="mt-5 textShadow text-light">WORK EXPERIENCES</h1>
+                <h2>Account Manager</h2>
+                <p>-Outbound calls for surveys, lead generation, event invitation and/or sales <br>
+                    -Inbound calls to resolve customer queries or close lead/sales <br>
+                    -Data entry to update customer relationship management (CRM) software <br>
+                    -Respond to emails <br>
+                    -Create reports using Microsoft Office and Google Drive <br>
+                    </p>
+
+
+                    <h2 class="mt-5 textShadow text-light">Key Skills</h2>
+                    <p>
+                        -Team Player <br>
+                        -Positive Attitude <br>
+                        -Leadership <br>
+                        -Communication <br>
+                        -Fast learner <br>
+                    </p>
+
+
+                    <h2 class="mt-5 textShadow text-light">LANGUAGES & FRAME WORKS</h2>
+                    <p>
+                        -Bootstrap <br>
+                        -HTML <br>
+                        -CSS <br>
+                        -PHP <br>
+                        -Laravel <br>
+                        -ReactJs <br>
+                        -NodeJs <br>
+                    </p>
+
+                    <h2 class="mt-5 textShadow text-light">Database, tools & other skills</h2>
+                        <p>
+                            -XAMPP <br>
+                            -Mysql <br>
+                            -VScode <br>
+                            -Github
+                        </p>
+            </div>
+            </div>
+        </div>
+
+
+      
+
+<div class="container mt-5 ">
+<div class="d-flex flex-row justify-content-between flex-wrap">
+   
+    <div class="col-md-6">
+        <button class="btn btn-outline-success btn-light buttonpadding mx-5" data-bs-toggle="modal" data-bs-target="#certificateModal">
+            View Certificate
+        </button>
+    </div>
+
+    <div class="col-md-6">
+        <button class="btn btn-outline-success btn-light buttonpadding mx-5" data-bs-toggle="modal" data-bs-target="#resumeModal">
+            View Resume
+        </button>
+
+    </div>
+
+</div>
+</div>
+
+
+<div class="modal fade modal-lg" id="certificateModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5>Certificate</h5>
+        </div>    
+        <div class="modal-body imgbackdrop">
+            <img src="ex9image/cert1.jpg"  style="width: 700px; height: 500px;">
+            <br>
+            <br>
+            <img src="ex9image/cert2.jpg"  style="width: 700px; height: 500px;">
+            <br>
+            <br>
+            <img src="ex9image/cert3.jpg"  style="width: 700px; height: 500px;">
+        </div>
+        <div class="modal-footer">
+            <a href="./ex9image/cert.zip"  download class="btn download-btn text-light bg-success" >
+            Download
+             </a>
+            <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+        </div>
+        </div>
+    </div>
+</div>
+        <!-- Certificate Modal-->
+
+
+        <div class="modal fade modal-lg" id="resumeModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Resume</h5>
+                </div>    
+                <div class="modal-body imgbackdrop">
+                    <img src="ex9image/resume1.png"  style="width: 600px; height: 700px;">
+                    <br>
+                    <br>
+                    <img src="ex9image/resume2.png"  style="width: 600px; height: 700px;">
+                    <br>
+                    <br>
+                    <img src="ex9image/KodegoResume.png"  style="width: 600px; height: 700px;">
+
+                </div>
+                <div class="modal-footer">
+                    <a href="./ex9image/resume.zip"  download class="btn download-btn text-light bg-success" >
+                        Download
+                         </a>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of resume modal -->
+
+
+
+
+        <div class="container-fluid my-5 py-5">
+            <h1 class="text-center my-5 textShadow text-white">University & Schools</h1> 
+            <div class="d-flex flex-row justify-content-evenly flex-wrap">
+                <img src="ex9image/bcees.jpg" class="img-fluid schoolLogo" style="width: 400px; height: 400px;">
+                <img src="ex9image/sbc.jpg"  class="img-fluid schoolLogo" style="width: 400px; height: 400px;">
+                <img src="ex9image/lpu.jpeg" class="img-fluid schoolLogo" style="width: 400px; height: 400px;">
+            </div>
+        </div>  
+
+
+
+
+
+    <footer class="bg-dark mt-5">
+        <div class="container-fluid py-5  mt-5">
+            <div class="d-flex justiy-content-evenly flex-wrap">
+                <div class="col-md-4">
+                    <h5 class="px-2 text-white footertxt px-5 mt-1">Visit Me:</h5>
+                    <a href="https://www.facebook.com/jonathan.borbon222/"><i class="fa-brands fa-facebook px-2"></i></a>
+                    <a href="https://twitter.com/nathanjayz"><i class="fa-brands fa-twitter px-2"></i></a>
+                    <a href="https://www.instagram.com/athan_borbon/"><i class="fa-brands fa-instagram px-2"></i></a>
+                    <a href="https://www.linkedin.com/in/jonathan-b-3086521a5/"><i class="fa-brands fa-linkedin px-2"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github px-2"></i></a>
+                </div>
+            </div>
+        </div>
+      </footer>  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
